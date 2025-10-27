@@ -1,0 +1,19 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "object",
+        "properties": {
+          "common": {"type": "string"},
+          "official": {"type": "string"}
+        },
+        "required": ["common", "official"]
+      },
+      "cca2": {"type": "string"},
+      "region": {"type": "string"}
+    },
+    "required": ["name", "cca2", "region"]
+  }
+}
